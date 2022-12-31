@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSEC Canteen</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="./images/logo.jpg" >
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .recipes-container{
+            max-width: 1200px;
+           
+            display: flex;
+            overflow: auto;
+            margin: 0 10px;
+        }
+        .recipes-list{
+            margin: 0px 10px 30px 20px;
+          
+            float: left;
+            width: 390px;
+       
+        }.recipes-list img{
+            width: 100%;
+            height: auto;
+           border: 2px solid grey;
+           border-radius: 10px;
+           box-shadow: 16px 14px 20px #0000008c;
+        }
+       
+        .desc{
+            padding: 1px;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+        }
+        .recipes-list:hover{
+            transform: scale(1.3);
+        }
+       
+    
+        
+    </style>
+</head>
+<body>
+   
+    <nav class="navbar">
+        <div class="nav-center">
+            <div class="nav-header">
+            <a href="index.html" class="nav-logo">
+                <img src="./images/main.jpg" alt="main"/>
+            </a>
+        
+            <button class="nav-btn btn">
+                <i class="fas fa-align-justify"></i>
+              </button>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">home</a>
+            <a href="about.html" class="nav-link">about</a>
+            <a href="menu.html" class="nav-link">menu</a>
+        </div>
+        <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">contact</a>
+        </div>
+    </div>
+    </nav>
+<!--main-->
+<main class="page">
+    <header class="hero">
+        <div class="hero-container">
+             <div class="hero-text">
+                <div class="w3-container w3-cursive">
+                <h1>Mepco Canteen</h1>
+                <h4>Foodies welcome here.</h4>
+            </div>
+             </div>
+        </div>
+    </header>
+ <section class="recipes-container">     
+<div class="recipes-list">
+    <a href="./breakfast.html" class="recipe" >
+        <img src="./images/outer/breakfastmenu.jpg" class="img recipe-img"
+        alt="" width="300px"  height="auto"/>
+        <div class="desc">Lovely BreakFast</div>
+</a></div>
+<div class="recipes-list">
+    <a href="./lunch.html" class="recipe" >
+        <img
+        src="./images/outer/lunchmenu.jpg" class="img recipe-img"
+        alt="" width="100%"  height="auto"/>    <div class="desc">Delicious Lunch</div>
+</a></div>
+<div class="recipes-list">
+    <a href="./evesnack.html" class="recipe" >
+        <img
+        src="./images/outer/eveningbrekmenu.jpg" class="img recipe-img"
+        alt=""width="100%"  height="auto"  />    <div class="desc">Superr Evening Snack</div>
+</a></div>
+<div class="recipes-list">
+    <a href="./juices.html" class="recipe" >
+        <img
+        src="./images/outer/juicmenu.jpg" class="img recipe-img"
+        alt="" width="100%"  height="auto" />   <div class="desc">Juice Items</div>
+    
+</a></div>
+<div class="recipes-list">
+    <a href="./ice.html" class="recipe" >
+        <img
+        src="./images/outer/icemenu.jpg" class="img recipe-img"
+        alt="" width="100%"  height="auto"/>   <div class="desc">Ice Creams</div>
+
+</a></div>
+    <div class="recipes-list">
+        <a href="./puff.html" class="recipe" >
+            <img
+            src="./images/outer/bakerypuff.jpg" class="img recipe-img"
+            alt=""width="100%"  height="auto"/>   <div class="desc">Bakery-items</div>
+    </a></div>
+
+ </section>
+</main>
+<!----------------------------------footer----------------------------------->
+<footer class="page-footer">
+    <section class="footer-container">
+      
+       <div class="contact-us">
+              <h5>contact us</h5>
+              <hr>
+              <li><i class="fa fa-map-marker" style="font-size:24px"></i> Mepco Schlenk Engineering College (Autonomous)
+                Mepco Schlenk Engineering College Post,
+                Sivakasi, Tamilnadu, India - 626005</li>
+              <li><i class="fa fa-phone " style="font-size:24px"></i>msec@mepcoeng.ac.in</li>
+              <li><i class="fa fa-envelope" style="font-size:24px"></i> 
+                +91-4562-235000 (30 Lines)
+                Fax: +91-4562-235111</li>
+       </div>
+        <section class="foot-logo">
+            <h5>Social Media Links</h5>
+            <hr>
+            <p>   &copy; Mepco Canteen.All rights reserved.Built by <span class="name"> Vignesh</span> with ❤️ and html,css,and js</p>
+           <a href="https://www.instagram.com/vignesh__244/"> <img src="./images/instagram.png"  alt="insta" width="40" height="40"></a>
+           <a href="https://www.linkedin.com/in/vignesh-s-322b531b0/"><img src="./images/linkedin.png" alt="linkedin" width="40" height="40"></a>
+           <a href="https://github.com/vignesh-244"><img src="./images/github.png" alt="github" width="40" height="40"></a>                
+        </section>
+</section>
+</footer>
+<!----------------------------------end-footer----------------------------------->
+<script src="./js/app.js"></script>
+</body>
+</html>
