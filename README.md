@@ -1,3 +1,3 @@
 # Mepco_Canteen 
-Click Below 👇👇👇 for live site
+Click here for live site 👉👉👉
 https://mepco-canteen.vercel.app/
